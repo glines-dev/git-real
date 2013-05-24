@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>jQuery!</title>
+    <link href="style.css" rel="stylesheet" type="text/css" media="screen">
+  </head>
+  <body>
+  	<div class="container">
+			<h2>Show / Hide</h2>
+		  <input class="button" type="button" value="Toggle" />
+		  <div class="hidden-area">
+		    <p class="hidden-text">
+		      This is the hidden text box that comes up when the button is clicked once.<br />
+		      It will go away when clicked again.
+		    </p>
+		  </div>
+		  <div class="price-change">
+				<h2 class="change">Price Check</h2>
+				<p class="price" data-price="4.99">Its <span>$4.99</span> for <span>1</span> shirt.<br /></p>
+				Quantity: <input type="number" class="quantity" value="1" />
+				<p>Total Price based on above quantity: $<span class="total">4.99</span></p>
+			</div>
+			<div class="show-comments">
+				<a href="#" class="expand">Show Comments</a>
+					<ul class="comments">
+						<li class="comment1">Super</li>
+						<li class="comment2">Amazing</li>
+						<li class="comment3">Awesome</li>
+					</ul>
+			</div>
+		</div>
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="application.js"></script>
+  </body>
+</html>

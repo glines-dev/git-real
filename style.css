@@ -1,0 +1,23 @@
+.container {
+	float: left;
+	margin-left: 100px;
+}
+
+.hidden-text {
+	border: 2px dashed #000;
+	width: 500px;
+	padding: 20px;
+	text-align: left;
+}
+
+.price span, .total {
+	color: red;
+}
+
+.comments {
+		list-style-type: none;
+}
+
+ul li:before {
+	content: "\00BB &#32;";
+}
